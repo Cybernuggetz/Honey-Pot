@@ -23,10 +23,12 @@ The Honey Pot Lab project aims to create a virtual control environment to simula
 - Microsoft Sentinel workbook to visualise the IP to country of location.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
+<img width="1366" height="768" alt="Screenshot From 2025-08-01 10-19-40" src="https://github.com/user-attachments/assets/abc92eda-d81f-4bd6-8168-762b63d3a275" />
 
-Example below.
+*Img 1: Network Diagram* Azure home page
 
-*Ref 1: Network Diagram*
+
+
+
+
