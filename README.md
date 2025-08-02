@@ -24,6 +24,9 @@ The Honey Pot Lab project aims to create a virtual control environment to simula
 
 ## Steps
 
+*Step 1:
+After logging into the Micrososft Azure homepage, the below interface was displayed. From, any needed tool can be choosen.
+
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 10-19-40" src="https://github.com/user-attachments/assets/abc92eda-d81f-4bd6-8168-762b63d3a275" />
 
 *Img 1: Network Diagram* Azure home page
