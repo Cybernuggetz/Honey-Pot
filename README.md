@@ -29,7 +29,7 @@ After logging into the Micrososft Azure homepage, the below interface was displa
 
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 10-19-40" src="https://github.com/user-attachments/assets/abc92eda-d81f-4bd6-8168-762b63d3a275" />
 
-*Image 1: Network Diagram* Azure home page
+*Image 1: Network Diagram* Azure home page <br>
 
 
 *Step 2:
@@ -37,7 +37,7 @@ In the Azure search bar, I searched the resources group, and create a resource g
 
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 10-24-18" src="https://github.com/user-attachments/assets/f758dc1e-6377-4123-af7a-a2385c99d600" />
 
-*Image 2: The resource group page
+*Image 2: The resource group page<br>
 
 
 *Step 3: 
@@ -46,7 +46,7 @@ Creation of Virtual Network. Through Azure search bar, the virtaul network page 
 
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 10-26-37" src="https://github.com/user-attachments/assets/b2ed388a-adf5-4542-905d-22bdeef5dde4" />
 
-*Image 3: Virtaul network page
+*Image 3: Virtaul network page<br>
 
 
 *step 4:
@@ -54,14 +54,14 @@ Creation of virtaul machine. Virtaul machine is created to disguise as a real ma
 
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 10-31-03" src="https://github.com/user-attachments/assets/5e57f781-01fa-4737-800f-0ef2abe534ab" />
 
-*Image 4: Virtual machine
+*Image 4: Virtual machine<br>
 
 *Step 5:
 Through the use of allowed tunnel, the virtaul machine is access by the local system
 
  <img width="1366" height="768" alt="Screenshot From 2025-08-01 15-33-52" src="https://github.com/user-attachments/assets/45f51831-99bd-460b-a198-a3b586794b5f" />
 
- *Image 5: virtaul machine laoding on the local system
+*Image 5: virtaul machine laoding on the local system<br>
 
  
 *Step 6: 
@@ -69,7 +69,7 @@ Log analytics workspace is created on the Azure to collect, store, analyse and v
 
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 12-06-10" src="https://github.com/user-attachments/assets/cefd28b6-7a2e-4bb4-93dd-9eb496b2e69c" />
 
-*Image 6: Azure log analytics workspace
+*Image 6: Azure log analytics workspace<br>
 
 
 *Step 7
