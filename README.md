@@ -89,4 +89,47 @@ On Sentinel, the Content hub is accessed and Window Security Event is installed 
 *Image 8: Content hub
 
 
+*Step 9 
+From the Window, log Connetor enriched log analytics with the capture event. The captured log consisted on attacker Ip and other metadata. By using Kql query langauge, the log data can be visualise in log analytics.
+
+<img width="1366" height="768" alt="Screenshot From 2025-08-01 14-27-36" src="https://github.com/user-attachments/assets/f274923c-7416-45fa-91ad-e8cfa63e2386" />
+
+*image 9: Log analytics view
+
+<img width="1366" height="768" alt="Screenshot From 2025-08-01 14-27-56" src="https://github.com/user-attachments/assets/68ebf805-7273-45ce-b355-11f0f845f598" />
+
+*Image 10: chart view of the log data
+
+
+*Step 10:
+
+Through Micosoft Sentinel watchlsit, a csv file that contain IPs and thier location in ingested into the resource. This watchlist then resolved the attackers IPs to thier location offering a more detailed intelligence.
+
+<img width="1366" height="768" alt="Screenshot From 2025-08-02 13-07-16" src="https://github.com/user-attachments/assets/804e7c1a-e8f6-44cf-aac8-802ccff6dcfd" />
+
+
+*Image 11: The watchlist
+
+
+<img width="1366" height="768" alt="Screenshot From 2025-08-02 13-15-28" src="https://github.com/user-attachments/assets/7258887a-c6ae-4ef8-bfa6-5b4edfd2726b" />
+
+*Image 12: Log analytics view with the Watchlist
+
+
+*Step 11:
+
+Microsoft Sentinel workbook is then created for better visualisation. 
+
+<img width="1366" height="768" alt="Screenshot From 2025-08-02 13-20-42" src="https://github.com/user-attachments/assets/63f66dd5-0091-46db-8460-75eed04edf3b" />
+
+*Image 13: Workbook query
+
+
+<img width="1366" height="768" alt="Screenshot From 2025-08-02 13-22-43" src="https://github.com/user-attachments/assets/aa5e96d9-d488-4855-ad1a-49a79a0f4599" />
+
+
+*Image 14: Workbook visualisation of the attack in map
+
+
+
 
