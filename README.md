@@ -7,7 +7,7 @@ The Honey Pot Lab project aims to create a virtual control environment to simula
 ### Skills Learned
 
 
-- Creation of cloud virtaul machine and deployment. 
+- Creation of cloud virtual machine and deployment. 
 - Windows log ingesting into Azure cloud.
 - Ability to generate and recognize attack signatures and patterns.
 - Usage of Kql to query the ingested log.
@@ -19,7 +19,7 @@ The Honey Pot Lab project aims to create a virtual control environment to simula
 
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Usage of remote desktop client tool to access the virtaul machine.
+- Usage of remote desktop client tool to access the virtual machine.
 - Microsoft Sentinel workbook to visualise the IP to country of location.
 
 ## Steps
@@ -42,26 +42,26 @@ In the Azure search bar, I searched the resources group, and create a resource g
 
 *Step 3: 
 
-Creation of Virtual Network. Through Azure search bar, the virtaul network page can be assesed and this will assign and manage Ip address to machines under the network. The virtual network is tied to the resources group. 
+Creation of Virtual Network. Through Azure search bar, the virtual network page can be assesed and this will assign and manage Ip address to machines under the network. The virtual network is tied to the resources group. 
 
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 10-26-37" src="https://github.com/user-attachments/assets/b2ed388a-adf5-4542-905d-22bdeef5dde4" />
 
-*Image 3: Virtaul network page<br>
+*Image 3: virtual network page<br>
 
 
 *step 4:
-Creation of virtaul machine. Virtaul machine is created to disguise as a real machine with a little bit of exposure to the wider world, on the network thereby luring attackers to attack the machines. The machine is configured to open certain port like ssh to facilitate remote access and then power on.
+Creation of virtual machine. virtual machine is created to disguise as a real machine with a little bit of exposure to the wider world, on the network thereby luring attackers to attack the machines. The machine is configured to open certain port like ssh to facilitate remote access and then power on.
 
 <img width="1366" height="768" alt="Screenshot From 2025-08-01 10-31-03" src="https://github.com/user-attachments/assets/5e57f781-01fa-4737-800f-0ef2abe534ab" />
 
 *Image 4: Virtual machine<br>
 
 *Step 5:
-Through the use of allowed tunnel, the virtaul machine is access by the local system
+Through the use of allowed tunnel, the virtual machine is access by the local system
 
  <img width="1366" height="768" alt="Screenshot From 2025-08-01 15-33-52" src="https://github.com/user-attachments/assets/45f51831-99bd-460b-a198-a3b586794b5f" />
 
-*Image 5: virtaul machine laoding on the local system<br>
+*Image 5: virtual machine laoding on the local system<br>
 
  
 *Step 6: 
@@ -72,11 +72,21 @@ Log analytics workspace is created on the Azure to collect, store, analyse and v
 *Image 6: Azure log analytics workspace<br>
 
 
-*Step 7
+*Step 7:
+Through the Azure seach bar Microsoft sentinel is added to the resource group giving visualisation capability to the group.
 
 
+<img width="1366" height="768" alt="Screenshot From 2025-08-01 12-42-19" src="https://github.com/user-attachments/assets/fa5c6dea-a722-4839-9799-92557dbae5cf" />
+
+*Image 7: Microsoft sentinel 
 
 
+*Step 8:
+On Sentinel, the Content hub is accessed and Window Security Event is installed which comes with AMA connector, responsible for forwading window logs to log analytics
+
+<img width="1366" height="768" alt="Screenshot From 2025-08-01 12-46-42" src="https://github.com/user-attachments/assets/ed22f194-40b0-4f81-804c-9a012c5a595a" />
+
+*Image 8: Content hub
 
 
 
